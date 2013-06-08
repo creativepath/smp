@@ -1,0 +1,9 @@
+--- 
+Name: Categories
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    cat//$Action/$ID : CategoriesPage_Controller
+    catFG//$Action/$ID : CategoriesFGPage_Controller
+
